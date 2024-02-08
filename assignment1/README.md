@@ -1,3 +1,5 @@
+## Assignment1 : Color Flipper 🎨
+  
 [과제 사이트 (클릭!)]( https://vannilla-js-basic-project-1-background-color.netlify.app/) 
 
 ## 필수 조건
