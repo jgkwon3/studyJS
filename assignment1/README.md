@@ -1,4 +1,20 @@
 ## Assignment1 : Color Flipper 🎨
+
+### commit message
+
+- 다양한 기능이 없기때문에 최소 2개의 commit은 올리셔야 합니다.
+
+  ```bash
+  //1. html 먼저 기본적으로 완성을 시키고 올리기
+  
+  1. git commit -m "feat : html success"
+  //2. css와 js 완성 시킨 후 다 완성했을 때 올리기
+  
+  2. git commit -m "feat : button click success"
+  
+  //3. 다시 보니까 이상해서 수정했을 때 올리기
+  3. git commit -m "refactor : {특정 부분} 재수정"
+  ```
   
 [과제 사이트 (클릭!)]( https://vannilla-js-basic-project-1-background-color.netlify.app/) 
 
