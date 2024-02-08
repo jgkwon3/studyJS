@@ -20,7 +20,7 @@
   
   ![image](https://github.com/I-on-I/StudyGit/assets/75532258/8af4c93a-8046-4d36-9462-eb4f5704e3d7)
 
-     이렇게 하면 본인 계정에 `{혜경 or 종구의 git Name}/jsStudy` repository 생성
+     이렇게 하면 본인 계정에 `jsStudy` repository 생성
 <br/>
 
 ### 2. fork한 저장소를 자신의 컴퓨터로 clone하기
