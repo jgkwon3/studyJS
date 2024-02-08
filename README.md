@@ -1,5 +1,5 @@
 
-# MISSION - Color Flipper 🎨
+# MISSION
 
 ## 🔍 진행방식
 
