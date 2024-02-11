@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Color Flipper</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * { 
+        text-align: justify;
+    }  
+    #hexcolor h1.center {
+        display: inline; 
+    }
+    #hexcolor h1#code {
+    display: inline; 
+    color: skyblue;
+    }
+    #hexcolor{
+        background-color: black;
+        padding: 20px;
+        font-size: 20px;
+        border: 10px; 
+        color: white;
+        margin : 30px; 
+        border-radius: 30px
+    }
+    .buttonclick{
+        text-align: center; 
+        margin-top: 10px; 
+    }
+    </style>
+
+</head>
+<title>HEXCOLOR</title>
+<body id="backgr">
+    <div id="hexcolor">
+        <h1 class="center">Background Color :</h1>
+        <h1 id="code">red</h1>
+    </div>
+    
+    <div class="buttonclick" >
+        <input type="button" name="button" value="CLICK ME" onclick="hexcode()"/>
+    </div>
+</body>
+<script src="back.js"></script>
+</body>
 </html>
