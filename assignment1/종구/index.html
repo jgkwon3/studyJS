@@ -28,8 +28,13 @@
         text-align: center; 
         margin-top: 10px; 
     }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content : center;
+        align-items: center;
+    }
     </style>
-
 </head>
 <title>HEXCOLOR</title>
 <body id="backgr">
@@ -37,7 +42,6 @@
         <h1 class="center">Background Color :</h1>
         <h1 id="code">red</h1>
     </div>
-    
     <div class="buttonclick" >
         <input type="button" name="button" value="CLICK ME" onclick="hexcode()"/>
     </div>
