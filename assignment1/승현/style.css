@@ -1,0 +1,102 @@
+/*base*/
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+}
+.bgcClass {
+  margin-top: 250px;
+  display: grid;
+  place-items: center;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+/*base*/
+
+/*nav*/
+nav {
+  background: white;
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.nav-center {
+  width: 90vw;
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-center h4 {
+  margin-bottom: 0;
+  color: var(--clr-primary-5);
+}
+.nav-links {
+  display: flex;
+}
+nav a {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1rem;
+  color: (205, 86%, 17%);
+  letter-spacing: 0.25rem;
+  margin-right: 1rem;
+}
+nav a:hover {
+  color: (205, 78%, 60%);
+}
+/*nav*/
+
+/*color*/
+.resultColor {
+  padding: 1rem;
+  margin-bottom: 30px;
+  letter-spacing: 0.25rem;
+  border-radius: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+}
+
+#clickBtn {
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  background: transparent;
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+  border: 2px solid;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+#clickBtn:hover {
+  color: white;
+  background-color: black;
+}
+
+/*color*/
+
+/* size */
+@media screen and (max-width: 800px) {
+}
+#colorContent {
+  color: hsl(205, 78%, 60%);
+}
+
+/* size */
